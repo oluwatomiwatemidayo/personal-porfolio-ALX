@@ -121,7 +121,7 @@ calcProjectHeader.appendChild(calcProjectLinks);
 const calcProjectGithub = document.createElement('a');
 calcProjectGithub.setAttribute(
 	'href',
-	'https://github.com/hankfontaine/Calculator'
+	'https://github.com'
 );
 calcProjectGithub.setAttribute('target', '_blank');
 calcProjectGithub.classList.add('project-svg');
@@ -131,7 +131,7 @@ calcProjectLinks.appendChild(calcProjectGithub);
 const calcProjectLive = document.createElement('a');
 calcProjectLive.setAttribute(
 	'href',
-	'https://hankfontaine.github.io/Calculator/'
+	'https://github.com'
 );
 calcProjectLive.setAttribute('target', '_blank');
 calcProjectLive.classList.add('project-svg');
@@ -176,7 +176,7 @@ krustyProjectHeader.appendChild(krustyProjectLinks);
 const krustyProjectGithub = document.createElement('a');
 krustyProjectGithub.setAttribute(
 	'href',
-	'https://github.com/hankfontaine/Krusty-s-Semi-Functional-Sketch-Etcher'
+	'https://github.com/'
 );
 krustyProjectGithub.setAttribute('target', '_blank');
 krustyProjectGithub.classList.add('project-svg');
@@ -186,7 +186,7 @@ krustyProjectLinks.appendChild(krustyProjectGithub);
 const krustyProjectLive = document.createElement('a');
 krustyProjectLive.setAttribute(
 	'href',
-	'https://hankfontaine.github.io/Krusty-s-Semi-Functional-Sketch-Etcher/'
+	'https://github.com'
 );
 krustyProjectLive.setAttribute('target', '_blank');
 krustyProjectLive.classList.add('project-svg');
@@ -231,7 +231,7 @@ libraryProjectHeader.appendChild(libraryProjectLinks);
 const libraryProjectGithub = document.createElement('a');
 libraryProjectGithub.setAttribute(
 	'href',
-	'https://github.com/hankfontaine/Library-App'
+	'https://github.com'
 );
 libraryProjectGithub.setAttribute('target', '_blank');
 libraryProjectGithub.classList.add('project-svg');
@@ -241,7 +241,7 @@ libraryProjectLinks.appendChild(libraryProjectGithub);
 const libraryProjectLive = document.createElement('a');
 libraryProjectLive.setAttribute(
 	'href',
-	'https://hankfontaine.github.io/Library-App/'
+	'https://github.com'
 );
 libraryProjectLive.setAttribute('target', '_blank');
 libraryProjectLive.classList.add('project-svg');
@@ -277,13 +277,13 @@ footerContactContainer.appendChild(contactMeTitle);
 
 const contactMeBio = document.createElement('h2');
 contactMeBio.append(
-	'Please get in touch if you think our work could be mutually beneficial!'
+	'Please do reach out to me if you need my services.'
 );
 contactMeBio.classList.add('footer-text');
 footerContactContainer.appendChild(contactMeBio);
 
 const contactMeAddress = document.createElement('h2');
-contactMeAddress.append('314 S 4th St Brooklyn NY 11211');
+contactMeAddress.append('L');
 contactMeAddress.classList.add('footer-text');
 footerContactContainer.appendChild(contactMeAddress);
 
