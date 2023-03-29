@@ -283,17 +283,17 @@ contactMeBio.classList.add('footer-text');
 footerContactContainer.appendChild(contactMeBio);
 
 const contactMeAddress = document.createElement('h2');
-contactMeAddress.append('L');
+contactMeAddress.append('Lagos, Nigeria');
 contactMeAddress.classList.add('footer-text');
 footerContactContainer.appendChild(contactMeAddress);
 
 const contactMePhone = document.createElement('h2');
-contactMePhone.append('805-210-0238');
+contactMePhone.append('123-456-7890');
 contactMePhone.classList.add('footer-text');
 footerContactContainer.appendChild(contactMePhone);
 
 const contactMeEmail = document.createElement('h2');
-contactMeEmail.append('henrymcgill@gmail.com');
+contactMeEmail.append('oluwatomiwatemidayo@gmail.com');
 contactMeEmail.classList.add('footer-text');
 footerContactContainer.appendChild(contactMeEmail);
 
@@ -303,7 +303,7 @@ footerLinks.classList.add('footer-text');
 footerContactContainer.appendChild(footerLinks);
 
 const footerGithub = document.createElement('a');
-footerGithub.setAttribute('href', 'https://github.com/hankfontaine/');
+footerGithub.setAttribute('href', 'https://github.com');
 footerGithub.setAttribute('target', '_blank');
 footerGithub.classList.add('about-me-svg');
 footerGithub.classList.add('about-me-github');
@@ -313,7 +313,7 @@ footerLinks.appendChild(footerGithub);
 const footerLinkedin = document.createElement('a');
 footerLinkedin.setAttribute(
 	'href',
-	'https://www.linkedin.com/in/hank-mcgill-999750184/'
+	'https://www.linkedin.com'
 );
 footerLinkedin.setAttribute('target', '_blank');
 footerLinkedin.classList.add('about-me-svg');
@@ -322,7 +322,7 @@ footerLinkedin.classList.add('footer-svg');
 footerLinks.appendChild(footerLinkedin);
 
 const footerTwitter = document.createElement('a');
-footerTwitter.setAttribute('href', 'https://www.twitter.com/hankfontaine/');
+footerTwitter.setAttribute('href', 'https://www.twitter.com');
 footerTwitter.setAttribute('target', '_blank');
 footerTwitter.classList.add('about-me-svg');
 footerTwitter.classList.add('about-me-twitter');
