@@ -37,7 +37,7 @@ aboutMeContainer.appendChild(aboutMeTitle);
 const aboutMeText = document.createElement('div');
 aboutMeText.classList.add('about-me-text');
 aboutMeText.append(
-	'Self-taught web developer, living in NYC. When I am not working on a new project, you can catch me on the beach in Thailand or hanging out in a chic cocktail bar on the Lower East Side!'
+	'A Software Enginnering student at ALX, living in Lagos Nigeria.'
 );
 aboutMeContainer.appendChild(aboutMeText);
 
@@ -46,7 +46,7 @@ aboutMeFooter.classList.add('about-me-footer');
 aboutMeContainer.appendChild(aboutMeFooter);
 
 const aboutMeGithub = document.createElement('a');
-aboutMeGithub.setAttribute('href', 'https://github.com/hankfontaine/');
+aboutMeGithub.setAttribute('href', 'https://github.com');
 aboutMeGithub.setAttribute('target', '_blank');
 aboutMeGithub.classList.add('about-me-svg');
 aboutMeGithub.classList.add('about-me-github');
@@ -55,7 +55,7 @@ aboutMeFooter.appendChild(aboutMeGithub);
 const aboutMeLinkedin = document.createElement('a');
 aboutMeLinkedin.setAttribute(
 	'href',
-	'https://www.linkedin.com/in/hank-mcgill-999750184/'
+	'https://www.linkedin.com'
 );
 aboutMeLinkedin.setAttribute('target', '_blank');
 aboutMeLinkedin.classList.add('about-me-svg');
@@ -63,7 +63,7 @@ aboutMeLinkedin.classList.add('about-me-linkedin');
 aboutMeFooter.appendChild(aboutMeLinkedin);
 
 const aboutMeTwitter = document.createElement('a');
-aboutMeTwitter.setAttribute('href', 'https://www.twitter.com/hankfontaine/');
+aboutMeTwitter.setAttribute('href', 'https://www.twitter.com');
 aboutMeTwitter.setAttribute('target', '_blank');
 aboutMeTwitter.classList.add('about-me-svg');
 aboutMeTwitter.classList.add('about-me-twitter');
