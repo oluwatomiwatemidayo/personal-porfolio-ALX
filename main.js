@@ -16,7 +16,7 @@ headerImgContainer.classList.add('header-img-container');
 headerContainer.appendChild(headerImgContainer);
 
 const headerImg = document.createElement('img');
-headerImg.src = './images/profile-pic-wide.jpg';
+headerImg.src = './images/profile-pic.jpg';
 headerImg.classList.add('header-img');
 headerImgContainer.appendChild(headerImg);
 
@@ -140,7 +140,7 @@ calcProjectLinks.appendChild(calcProjectLive);
 
 const calcProjectDesc = document.createElement('div');
 calcProjectDesc.append(
-	'An AmEx inspired calculator, built with vanilla JavaScript.'
+	'A calculatar app built with vanilla JavaScript.'
 );
 calcProjectDescContainer.appendChild(calcProjectDesc);
 
@@ -195,7 +195,7 @@ krustyProjectLinks.appendChild(krustyProjectLive);
 
 const krustyProjectDesc = document.createElement('div');
 krustyProjectDesc.append(
-	`A cheap, imiation knockoff of a popular children's toy, cosigned by Krusty the Clown.`
+	`A sketch pad app built with JavaScript.`
 );
 krustyProjectDescContainer.appendChild(krustyProjectDesc);
 
@@ -250,7 +250,7 @@ libraryProjectLinks.appendChild(libraryProjectLive);
 
 const libraryProjectDesc = document.createElement('div');
 libraryProjectDesc.append(
-	`A simple CRUD app and a fun way to track what you're readin'.`
+	`A app to track books you are currently reading'.`
 );
 libraryProjectDescContainer.appendChild(libraryProjectDesc);
 
@@ -334,6 +334,6 @@ footerImgContainer.classList.add('header-img-container');
 footerContainer.appendChild(footerImgContainer);
 
 const footerImg = document.createElement('img');
-footerImg.src = './images/profile-pic-wide.jpg';
+footerImg.src = './images/profile-pic.jpg';
 footerImg.classList.add('header-img');
 footerImgContainer.appendChild(footerImg);
