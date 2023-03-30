@@ -24,7 +24,7 @@ h3 {
 }
 
 header, footer {
-    background-color: rgba(62, 154, 182, 0.898);
+    background-color: gray/*rgba(62, 154, 182, 0.898);*/
 }
 
 .header-img, .footer-img {
